@@ -1,5 +1,6 @@
 Hasing repository
 Hashing is nothing but prestoring and fetching
+Number HAshing=>
 1: imaginge a programme that ask u to find count of a particular number in the array.
 2: Generally we use the bruteforce method and take the number and traverse the whole array.
 3: instead hashing use the hasArray concept that creates another array of the size of the maximum array of the original array and stores initially 0's in it;
@@ -7,3 +8,9 @@ Hashing is nothing but prestoring and fetching
 5: then if we just fetch the hashArray[required number] we get the count.
 6: The maximum size of the integer array in the main method is [10^6] and if its declared globally its [10^7]
 7: if we try to declare more than that we get error.
+
+
+Character Hashing =>
+1: Its similar to number hashing but slight variation is that we take the size of an array like based on ASCII.
+2: if we have string with only small letters and asked for count of particular character just store and fetch by the formula charactergiven-'a';
+3: This gives the index at which character resides.
